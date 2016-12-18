@@ -86,4 +86,4 @@ M
 
 思考：
 
-malacher算法反而因为耗时太长不能在leetcode上通过
+manacher算法反而因为耗时太长不能在leetcode上通过
