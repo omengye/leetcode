@@ -29,7 +29,8 @@ public class ReverseInteger {
             res += xS.charAt(j);
         }
 
-        if (Double.parseDouble(res) > Integer.MAX_VALUE) {
+        if ((!isNegative && Double.parseDouble(res) > Integer.MAX_VALUE)
+                || (isNegative && Double.parseDouble(res) -1 > Integer.MAX_VALUE)) {
             return 0;
         }
 
